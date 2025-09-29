@@ -7,7 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 const FooterContainer = styled(Box)(({ theme }) => ({
   background: 'linear-gradient(180deg, #0A0A0A 0%, #000000 100%)',
   borderTop: '1px solid rgba(255, 255, 255, 0.1)',
-  padding: theme.spacing(8, 0, 4, 0)
+  padding: theme.spacing(6, 0, 4, 0)
 }));
 
 const FooterSection = styled(Box)(({ theme }) => ({
@@ -160,7 +160,7 @@ export default function Footer() {
               © 2024 LOGO. All rights reserved.
             </Typography>
             
-            <Stack direction="row" spacing={3}>
+            <Stack direction={{ xs: 'column', sm: 'row' }} spacing={3}>
               <FooterLink href="#">Privacy Policy</FooterLink>
               <FooterLink href="#">Terms of Service</FooterLink>
               <FooterLink href="#">Cookie Policy</FooterLink>

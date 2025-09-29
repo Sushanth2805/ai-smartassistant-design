@@ -6,7 +6,7 @@ import SpeedOutlinedIcon from '@mui/icons-material/SpeedOutlined';
 import SecurityOutlinedIcon from '@mui/icons-material/SecurityOutlined';
 
 const SectionContainer = styled(Box)(({ theme }) => ({
-  padding: theme.spacing(10, 0),
+  padding: theme.spacing(8, 0),
   background: 'linear-gradient(180deg, #0A0A0A 0%, #1A1A1A 100%)'
 }));
 
@@ -15,7 +15,7 @@ const FeatureCard = styled(Paper)(({ theme }) => ({
   backdropFilter: 'blur(20px)',
   border: '1px solid rgba(255, 255, 255, 0.1)',
   borderRadius: '20px',
-  padding: theme.spacing(4),
+  padding: theme.spacing(3),
   transition: 'all 0.3s ease',
   cursor: 'pointer',
   '&:hover': {

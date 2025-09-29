@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles';
 import StarOutlinedIcon from '@mui/icons-material/StarOutlined';
 
 const SectionContainer = styled(Box)(({ theme }) => ({
-  padding: theme.spacing(10, 0),
+  padding: theme.spacing(8, 0),
   background: `
     radial-gradient(ellipse at 30% 50%, rgba(0, 255, 136, 0.03) 0%, transparent 50%),
     linear-gradient(180deg, #0A0A0A 0%, #1A1A1A 100%)
